@@ -25,8 +25,8 @@ class FilmItemAdapter: ListAdapter<Filme, FilmItemAdapter.FilmItemViewHolder>(DI
     ): RecyclerView.ViewHolder(binding.root) {
 
         fun bind(filme: Filme){
-            binding.name.text = filme.name
-            binding.diaMesAno.text =
+            binding.name.text = filme.title
+            binding.diaMesAno.text = filme.status
         }
         }
 
