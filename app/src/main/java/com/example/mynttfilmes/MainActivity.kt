@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         binder.filmListRecyclerView.adapter = filmItemAdapter
 
+        
         filmItemAdapter.submitList(mockFilms())
 
     }
