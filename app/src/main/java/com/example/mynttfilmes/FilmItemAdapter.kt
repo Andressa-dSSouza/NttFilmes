@@ -17,7 +17,7 @@ class FilmItemAdapter: ListAdapter<Filme, FilmItemAdapter.FilmItemViewHolder>(DI
     }
 
     override fun onBindViewHolder(holder: FilmItemViewHolder, position: Int) {
-        holder
+        holder.bind(getItem(position))
     }
 
     class FilmItemViewHolder

@@ -1,29 +1,56 @@
 package com.example.mynttfilmes.model
 
 data class Filme(
-    val adult: Boolean,
-    val backdrop_path: String,
-    val belongs_to_collection: Any,
-    val budget: Int,
-    val genres: List<Genre>,
-    val homepage: String,
+
     val id: Int,
-    val imdb_id: String,
-    val original_language: String,
-    val original_title: String,
-    val overview: String,
-    val popularity: Double,
-    val poster_path: Any,
-    val production_companies: List<ProductionCompany>,
-    val production_countries: List<ProductionCountry>,
-    val release_date: String,
-    val revenue: Int,
-    val runtime: Int,
-    val spoken_languages: List<SpokenLanguage>,
-    val status: String,
-    val tagline: String,
     val title: String,
-    val video: Boolean,
-    val vote_average: Double,
-    val vote_count: Int
+    val original_title: String,
+    val status: String,
+    val adult: String,
+    val original_language: String,
+    val overview: String,
+    val release_date: String,
+
+
+
 )
+
+fun mockFilms(): List0f = List0f(
+
+    Filme(
+        id = 1,
+        title = "Corra",
+        original_title = "Rum",
+        status = "Suspense",
+        adult = "Sim",
+        original_language = "En",
+        overview = "Individuo conhece moça e vai em uma viagem conhecer a familia",
+        release_date = "2020"
+    ),
+    Filme(
+        id = 2,
+        title = "Vermelho",
+        original_title = "Red",
+        status = "Animação",
+        original_language = "En",
+        overview = "Adolecente vira panda vermelho",
+        release_date = "2020",
+        adult = "Não"
+    ),
+    Filme(
+        id = 3,
+        title = "",
+        original_title = "Gente Grande",
+        status = "Comedia",
+        original_language = "En",
+        overview = "Pais que esqueceram de crescer mas tem familia",
+        release_date = "2020",
+        adult = "Não"
+)
+
+)
+
+class List0f(filme: Filme, filme1: Filme, filme2: Filme) {
+
+}
+
