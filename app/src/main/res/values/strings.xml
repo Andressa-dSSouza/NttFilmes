@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MyNttFilmes</string>
     <item name="dsds" type="id" />
+
+    <string name="genero_label">Genero</string>
+    <string name="data_label">Lançamento</string>
 </resources>

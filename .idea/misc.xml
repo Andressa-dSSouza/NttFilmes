@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/asansouz/AndroidStudioProjects/MyNttFilmes/app/src/main/res/layout/activity_film_details.xml" value="0.22" />
         <entry key="..\:/Users/asansouz/AndroidStudioProjects/MyNttFilmes/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/asansouz/AndroidStudioProjects/MyNttFilmes/app/src/main/res/layout/film_list_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/asansouz/AndroidStudioProjects/MyNttFilmes/app/src/main/res/layout/film_list_item.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>
